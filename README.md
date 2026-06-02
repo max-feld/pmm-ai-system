@@ -10,6 +10,21 @@ The difference matters. A prompt for competitive analysis gives you a generic su
 
 Every skill in this system reads from and writes to a shared context layer, so work compounds across the full PMM surface instead of starting from zero each session.
 
+## Before you run anything: what you need to provide
+
+The frameworks are built in. The company-specific context is not — and that's intentional. Generic inputs produce generic output. Before running any skill, you populate the Context Foundation file with your specifics:
+
+| Input area | What to provide |
+|------------|----------------|
+| Product | What it does, real differentiators, feature set, roadmap direction |
+| Pricing and packaging | Tiers, value metric, free/trial motion if applicable |
+| Competitive landscape | Direct competitors, indirect alternatives, do-nothing option, in-house build |
+| Audience | ICP profile, persona breakdown, trigger events, buying fears |
+| Sales motion | How deals are sourced, cycle length, where they stall, how reps actually sell |
+| Current positioning | Existing messaging, perception gaps, known objections |
+
+The Context Foundation skill structures these inputs against the operating frameworks. Every downstream skill inherits the result. This is what separates the system from a prompt library: the frameworks run on your specific reality, not a generic approximation of it.
+
 ## The system
 
 | Skill | What it does | Frameworks |
@@ -36,22 +51,19 @@ Context Foundation
 
 The Context Foundation skill runs first. It builds the shared knowledge base (market diagnosis, positioning components, competitive landscape, ICP, mental availability mapping) that every downstream skill inherits. When any skill produces new insight (a win/loss pattern, a competitive shift, a PLG metric trend), it updates the context layer so the next skill session starts smarter.
 
-## The frameworks behind the system
+## The frameworks baked in
 
-The system draws on twelve operator frameworks, selected because they're the most rigorous, practitioner-tested thinking available for each PMM function:
-
-- **Mark Ritson** — Diagnosis → Strategy → Tactics. Every strategic decision is traceable to a diagnosis. Skipping diagnosis is how strategy goes wrong.
-- **April Dunford** (*Obviously Awesome*, *Sales Pitch*) — Positioning components: competitive alternatives, unique attributes, value themes, ICP, market frame. The spine of positioning and win/loss work.
-- **Byron Sharp** (*How Brands Grow*, Ehrenberg-Bass) — Mental availability, Category Entry Points, distinctive brand assets. The stress test for whether messaging will register in market, not just be correct on paper.
-- **Emily Kramer** (MKT1) — Audiences → Goals → Strategies → Tactics. The cross-functional planning structure that turns strategy into accountable plans.
-- **Andy Raskin** — Strategic narrative: shift → stakes → promised land → magic gifts → evidence. The launch story structure where the product is the gift, not the headline.
-- **Anthony Pierri & Robert Kaminski** (Fletch PMM) — Homepage and one-pager messaging. One product, one audience, one problem.
-- **Marty Neumeier** (*Zag*, *The Brand Gap*) — Onlyness statements and the substitution test for differentiation.
-- **Peep Laja** (Wynter, CXL) — Message testing methodology, 5-second clarity test, specificity checks.
-- **Kyle Poyar** (OpenView/Tremont) — PLG benchmarks by ACV band, value metric selection, packaging principles, conversion economics.
-- **Bob Moesta** (JTBD) — Forces of progress (push, pull, anxiety, habit), switch interview methodology.
-- **Jason Oakley** (Productive PMM) — Launch tiering (T1/T2/T3) and launch operations.
-- **Les Binet & Peter Field** — Brand vs. activation, the empirical case for long-term brand investment.
+- **April Dunford** (Obviously Awesome) — positioning components, competitive alternatives
+- **Mark Ritson** — diagnosis → strategy → tactics, research-first discipline
+- **Byron Sharp** (How Brands Grow) — mental availability, CEPs, distinctive brand assets, light-buyer reality
+- **Andy Raskin** — strategic narrative for B2B SaaS
+- **Emily Kramer** (MKT1) — audiences → goals → strategies → tactics
+- **Bob Moesta** (JTBD) — forces of progress, switch interview methodology
+- **Jason Oakley** (Productive PMM) — launch tiering (T1/T2/T3) and launch operations
+- **Kyle Poyar** — PLG benchmarks by ACV band, value metrics, packaging principles
+- **Peep Laja** (CXL) — message testing, conversion, PLG
+- **Martina Lauchengco** (Loved) — PMM operating model, product-market fit signals
+- **Marty Neumeier** (Brand Gap, Zag) — brand differentiation, category design
 
 When the system draws on these frameworks, it weaves them into the workflow as operating logic, not as citations. Senior PMMs who articulate strong frameworks as their own thinking come off as practitioners. Senior PMMs who recite framework names come off as academic.
 
@@ -67,6 +79,6 @@ When the system draws on these frameworks, it weaves them into the workflow as o
 
 AI doesn't replace the strategic judgment in product marketing. It replaces the manual labor that used to sit between a strategic question and a useful answer.
 
-The pattern across every skill in this system is the same: AI compresses research, synthesis, and first-draft generation so I spend more time on the work that actually matters (positioning decisions, narrative architecture, go-to-market sequencing, the politics of getting a room full of stakeholders to agree on a story). The human judgment layer never gets automated. The grunt work does.
+The pattern across every skill in this system is the same: AI compresses research, synthesis, and first-draft generation so I spend more time on the work that actually matters — positioning decisions, narrative architecture, go-to-market sequencing, the politics of getting a room full of stakeholders to agree on a story. The human judgment layer never gets automated. The grunt work does.
 
-The key insight that made this system work: generic AI prompts produce generic output. AI that's been given a specific framework, structured inputs, quality standards, and stress tests produces output at the level of a senior practitioner's first draft. That's the difference between "use AI for competitive research" and a skill that knows to check product documentation against marketing claims, capture distinctive brand assets most CI programs miss, and structure the battlecard for a rep under pressure.
+The key insight that made this system work: generic AI prompts produce generic output. AI grounded in specific frameworks, structured inputs, quality standards, and stress tests produces output at the level of a senior practitioner's first draft. That's the difference between "use AI for competitive research" and a skill that knows to check product documentation against marketing claims, capture distinctive brand assets most CI programs miss, and structure the battlecard for a rep under pressure in a live deal.
